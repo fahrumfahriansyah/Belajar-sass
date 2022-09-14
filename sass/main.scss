@@ -1,0 +1,135 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+@mixin gambar($width: 100px, $height: 100px, $gambar: url("../img/gambar1.png"), $mode: false) {
+    background-image: $gambar;
+    background-size: cover;
+    width: $width;
+    height: $height;
+
+    @if $mode {
+        background-position: 0px -86px;
+        border-radius: 10%;
+    }
+}
+
+@mixin text () {
+    background-color: rgb(249, 144, 7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+$whitebgc: rgb(255, 254, 254);
+
+@mixin header($bool: true) {
+    width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+    @if $bool {
+        box-shadow: 0px 40px 100px white;
+        background-color: rgb(255, 254, 254);
+
+        .judul {
+            text-decoration: underline;
+            font-family: monospace;
+        }
+    }
+
+    @else {
+        box-shadow: 0px 40px 100px rgb(39, 36, 36);
+        background-color: rgb(27, 22, 22);
+
+        .judul {
+            text-decoration: underline;
+            font-family: monospace;
+            color: aliceblue;
+        }
+    }
+
+
+
+
+
+    .gambar-footer {
+        @include gambar();
+
+    }
+
+    .mode {
+        padding-right: 10%;
+        flex-grow: 8;
+        text-align: end;
+
+        button {
+            background-color: aquamarine;
+            padding: 5px 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            transition: 1s;
+        }
+
+        button:hover {
+            background-color: rgb(199, 234, 222);
+        }
+    }
+}
+
+@mixin main($bool1: false) {
+    padding: 20px;
+
+    @if $bool1 {
+        background-color: rgb(13, 12, 12);
+    }
+
+    .gambar-main {
+        margin: 0px auto;
+        @include gambar(600px, 430px, url("../img/gambar.jpg"), $mode: true);
+
+    }
+
+    .text {
+        display: flex;
+        margin-top: 50px;
+
+        .text1 {
+            @include text()
+        }
+
+        .text2 {
+            @include text()
+        }
+    }
+}
+
+header {
+    footer {
+        .container {
+            @include header()
+        }
+
+        .containernya {
+            @include header($bool: false)
+        }
+    }
+}
+
+main {
+
+    article {
+        .container1 {
+            @include main()
+        }
+
+        .container1nya {
+            @include main($bool1: true)
+        }
+    }
+}

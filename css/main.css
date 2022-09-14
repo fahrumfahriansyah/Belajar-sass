@@ -1,0 +1,137 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+header footer .container {
+  width: 100%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 40px 100px white;
+  background-color: rgb(255, 254, 254);
+}
+header footer .container .judul {
+  text-decoration: underline;
+  font-family: monospace;
+}
+header footer .container .gambar-footer {
+  background-image: url("../img/gambar1.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+header footer .container .mode {
+  padding-right: 10%;
+  flex-grow: 8;
+  text-align: end;
+}
+header footer .container .mode button {
+  background-color: aquamarine;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 1s;
+}
+header footer .container .mode button:hover {
+  background-color: rgb(199, 234, 222);
+}
+header footer .containernya {
+  width: 100%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 40px 100px rgb(39, 36, 36);
+  background-color: rgb(27, 22, 22);
+}
+header footer .containernya .judul {
+  text-decoration: underline;
+  font-family: monospace;
+  color: aliceblue;
+}
+header footer .containernya .gambar-footer {
+  background-image: url("../img/gambar1.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+header footer .containernya .mode {
+  padding-right: 10%;
+  flex-grow: 8;
+  text-align: end;
+}
+header footer .containernya .mode button {
+  background-color: aquamarine;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 1s;
+}
+header footer .containernya .mode button:hover {
+  background-color: rgb(199, 234, 222);
+}
+
+main article .container1 {
+  padding: 20px;
+}
+main article .container1 .gambar-main {
+  margin: 0px auto;
+  background-image: url("../img/gambar.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 430px;
+  background-position: 0px -86px;
+  border-radius: 10%;
+}
+main article .container1 .text {
+  display: flex;
+  margin-top: 50px;
+}
+main article .container1 .text .text1 {
+  background-color: rgb(249, 144, 7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 50%;
+}
+main article .container1 .text .text2 {
+  background-color: rgb(249, 144, 7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 50%;
+}
+main article .container1nya {
+  padding: 20px;
+  background-color: rgb(13, 12, 12);
+}
+main article .container1nya .gambar-main {
+  margin: 0px auto;
+  background-image: url("../img/gambar.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 430px;
+  background-position: 0px -86px;
+  border-radius: 10%;
+}
+main article .container1nya .text {
+  display: flex;
+  margin-top: 50px;
+}
+main article .container1nya .text .text1 {
+  background-color: rgb(249, 144, 7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 50%;
+}
+main article .container1nya .text .text2 {
+  background-color: rgb(249, 144, 7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 50%;
+}/*# sourceMappingURL=main.css.map */
