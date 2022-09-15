@@ -4,6 +4,227 @@ body {
   scroll-behavior: smooth;
 }
 
+.list1nya span:nth-child(1) {
+  cursor: pointer;
+  color: #613091;
+  text-shadow: 3px 2px 10px #613091;
+  transition: 1s;
+}
+.list1nya span:nth-child(1):hover {
+  font-size: 30px;
+  color: #b8a2cd;
+  text-shadow: 3px 2px 10px #d1cbd7;
+}
+.list1nya span:nth-child(2) {
+  cursor: pointer;
+  color: #5c2e8a;
+  text-shadow: 3px 2px 10px #5c2e8a;
+  transition: 1s;
+}
+.list1nya span:nth-child(2):hover {
+  font-size: 30px;
+  color: #b39cca;
+  text-shadow: 3px 2px 10px #ccc6d2;
+}
+.list1nya span:nth-child(3) {
+  cursor: pointer;
+  color: #572b82;
+  text-shadow: 3px 2px 10px #572b82;
+  transition: 1s;
+}
+.list1nya span:nth-child(3):hover {
+  font-size: 30px;
+  color: #ae95c6;
+  text-shadow: 3px 2px 10px #c7c0ce;
+}
+.list1nya span:nth-child(4) {
+  cursor: pointer;
+  color: #52297a;
+  text-shadow: 3px 2px 10px #52297a;
+  transition: 1s;
+}
+.list1nya span:nth-child(4):hover {
+  font-size: 30px;
+  color: #a98ec3;
+  text-shadow: 3px 2px 10px #c2bac9;
+}
+.list1nya span:nth-child(5) {
+  cursor: pointer;
+  color: #4d2673;
+  text-shadow: 3px 2px 10px #4d2673;
+  transition: 1s;
+}
+.list1nya span:nth-child(5):hover {
+  font-size: 30px;
+  color: #a488bf;
+  text-shadow: 3px 2px 10px #bdb4c5;
+}
+.list1nya span:nth-child(6) {
+  cursor: pointer;
+  color: #47246b;
+  text-shadow: 3px 2px 10px #47246b;
+  transition: 1s;
+}
+.list1nya span:nth-child(6):hover {
+  font-size: 30px;
+  color: #9e81bc;
+  text-shadow: 3px 2px 10px #b7afc0;
+}
+.list1nya span:nth-child(7) {
+  cursor: pointer;
+  color: #422163;
+  text-shadow: 3px 2px 10px #422163;
+  transition: 1s;
+}
+.list1nya span:nth-child(7):hover {
+  font-size: 30px;
+  color: #997ab8;
+  text-shadow: 3px 2px 10px #b2a9bc;
+}
+.list1nya span:nth-child(8) {
+  cursor: pointer;
+  color: #3d1f5c;
+  text-shadow: 3px 2px 10px #3d1f5c;
+  transition: 1s;
+}
+.list1nya span:nth-child(8):hover {
+  font-size: 30px;
+  color: #9474b5;
+  text-shadow: 3px 2px 10px #ada3b7;
+}
+.list1nya span:nth-child(9) {
+  cursor: pointer;
+  color: #381c54;
+  text-shadow: 3px 2px 10px #381c54;
+  transition: 1s;
+}
+.list1nya span:nth-child(9):hover {
+  font-size: 30px;
+  color: #8f6db1;
+  text-shadow: 3px 2px 10px #a89eb3;
+}
+.list1nya span:nth-child(10) {
+  cursor: pointer;
+  color: #331a4d;
+  text-shadow: 3px 2px 10px #331a4d;
+  transition: 1s;
+}
+.list1nya span:nth-child(10):hover {
+  font-size: 30px;
+  color: #8a67ad;
+  text-shadow: 3px 2px 10px #a398ae;
+}
+.list1nya span:nth-child(11) {
+  cursor: pointer;
+  color: #2e1745;
+  text-shadow: 3px 2px 10px #2e1745;
+  transition: 1s;
+}
+.list1nya span:nth-child(11):hover {
+  font-size: 30px;
+  color: #8560aa;
+  text-shadow: 3px 2px 10px #9e92aa;
+}
+.list1nya span:nth-child(12) {
+  cursor: pointer;
+  color: #29143d;
+  text-shadow: 3px 2px 10px #29143d;
+  transition: 1s;
+}
+.list1nya span:nth-child(12):hover {
+  font-size: 30px;
+  color: #8059a6;
+  text-shadow: 3px 2px 10px #998ca5;
+}
+.list1nya span:nth-child(13) {
+  cursor: pointer;
+  color: #241236;
+  text-shadow: 3px 2px 10px #241236;
+  transition: 1s;
+}
+.list1nya span:nth-child(13):hover {
+  font-size: 30px;
+  color: #7b56a0;
+  text-shadow: 3px 2px 10px #9487a1;
+}
+.list1nya span:nth-child(14) {
+  cursor: pointer;
+  color: #1f0f2e;
+  text-shadow: 3px 2px 10px #1f0f2e;
+  transition: 1s;
+}
+.list1nya span:nth-child(14):hover {
+  font-size: 30px;
+  color: #765299;
+  text-shadow: 3px 2px 10px #8f819c;
+}
+.list1nya span:nth-child(15) {
+  cursor: pointer;
+  color: #1a0d26;
+  text-shadow: 3px 2px 10px #1a0d26;
+  transition: 1s;
+}
+.list1nya span:nth-child(15):hover {
+  font-size: 30px;
+  color: #714e93;
+  text-shadow: 3px 2px 10px #8a7b98;
+}
+.list1nya span:nth-child(16) {
+  cursor: pointer;
+  color: #140a1f;
+  text-shadow: 3px 2px 10px #140a1f;
+  transition: 1s;
+}
+.list1nya span:nth-child(16):hover {
+  font-size: 30px;
+  color: #6b4b8c;
+  text-shadow: 3px 2px 10px #847593;
+}
+.list1nya span:nth-child(17) {
+  cursor: pointer;
+  color: #0f0817;
+  text-shadow: 3px 2px 10px #0f0817;
+  transition: 1s;
+}
+.list1nya span:nth-child(17):hover {
+  font-size: 30px;
+  color: #664785;
+  text-shadow: 3px 2px 10px #7f708f;
+}
+.list1nya span:nth-child(18) {
+  cursor: pointer;
+  color: #0a050f;
+  text-shadow: 3px 2px 10px #0a050f;
+  transition: 1s;
+}
+.list1nya span:nth-child(18):hover {
+  font-size: 30px;
+  color: #61447f;
+  text-shadow: 3px 2px 10px #7a6b89;
+}
+.list1nya span:nth-child(19) {
+  cursor: pointer;
+  color: #050308;
+  text-shadow: 3px 2px 10px #050308;
+  transition: 1s;
+}
+.list1nya span:nth-child(19):hover {
+  font-size: 30px;
+  color: #5c4078;
+  text-shadow: 3px 2px 10px #756783;
+}
+.list1nya span:nth-child(20) {
+  cursor: pointer;
+  color: black;
+  text-shadow: 3px 2px 10px black;
+  transition: 1s;
+}
+.list1nya span:nth-child(20):hover {
+  font-size: 30px;
+  color: #573d71;
+  text-shadow: 3px 2px 10px #70627e;
+}
+
 header footer .container {
   width: 100%;
   width: 100%;
@@ -104,6 +325,94 @@ main article .container1 .text .text2 {
   margin-right: 20px;
   width: 50%;
 }
+main article .container1 .list .list1 {
+  margin-top: 30px;
+  padding: 20px;
+}
+main article .container1 .list .list1 ul li:nth-child(1) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fa897c;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(2) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fb9286;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(3) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fb9b90;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(4) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fba399;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(5) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fcaca3;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(6) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fcb5ad;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(7) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fcbeb7;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(8) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fdc7c1;
+  border-radius: 5px;
+}
+main article .container1 .list .list1 ul li:nth-child(9) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fdd0cb;
+  border-radius: 5px;
+}
+main article .container1 .list .list2 ul .instragram {
+  margin: 5px;
+}
+main article .container1 .list .list2 ul .instragram a {
+  color: salmon;
+}
+main article .container1 .list .list2 ul .facebook {
+  margin: 5px;
+}
+main article .container1 .list .list2 ul .facebook a {
+  color: rgb(29, 29, 247);
+}
 main article .container1nya {
   padding: 20px;
   background-color: rgb(13, 12, 12);
@@ -134,4 +443,92 @@ main article .container1nya .text .text2 {
   border-radius: 10px;
   margin-right: 20px;
   width: 50%;
+}
+main article .container1nya .list .list1 {
+  margin-top: 30px;
+  padding: 20px;
+}
+main article .container1nya .list .list1 ul li:nth-child(1) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fa897c;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(2) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fb9286;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(3) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fb9b90;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(4) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fba399;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(5) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fcaca3;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(6) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fcb5ad;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(7) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fcbeb7;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(8) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fdc7c1;
+  border-radius: 5px;
+}
+main article .container1nya .list .list1 ul li:nth-child(9) {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  list-style: none;
+  background-color: #fdd0cb;
+  border-radius: 5px;
+}
+main article .container1nya .list .list2 ul .instragram {
+  margin: 5px;
+}
+main article .container1nya .list .list2 ul .instragram a {
+  color: salmon;
+}
+main article .container1nya .list .list2 ul .facebook {
+  margin: 5px;
+}
+main article .container1nya .list .list2 ul .facebook a {
+  color: rgb(29, 29, 247);
 }/*# sourceMappingURL=main.css.map */

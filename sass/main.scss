@@ -82,6 +82,10 @@ $whitebgc: rgb(255, 254, 254);
     }
 }
 
+@mixin colorList($color: salmon) {
+    color: $color;
+}
+
 @mixin main($bool1: false) {
     padding: 20px;
 
@@ -107,6 +111,76 @@ $whitebgc: rgb(255, 254, 254);
             @include text()
         }
     }
+
+
+
+
+
+
+    .list {
+        .list1 {
+            margin-top: 30px;
+            padding: 20px;
+
+            @for $a from 1 to 10 {
+                ul {
+                    li:nth-child(#{$a}) {
+                        text-align: center;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        padding: 5px;
+                        list-style: none;
+                        //lighten & darken
+                        //! ini akan menghasilkan list yang unik karena adanya pemecehan fungsi radiuspun beralih
+                        background-color: lighten($color: salmon, $amount: $a *2);
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .list2 {
+
+            ul {
+                .instragram {
+                    margin: 5px;
+
+                    a {
+                        @include colorList(salmon)
+                    }
+                }
+
+                .facebook {
+                    margin: 5px;
+
+                    a {
+                        @include colorList(rgb(29, 29, 247))
+                    }
+                }
+            }
+        }
+    }
+}
+
+.list1nya {
+    $b: 1;
+
+    @while $b < 21 {
+        span:nth-child(#{$b}) {
+            cursor: pointer;
+            color: darken($color: rebeccapurple, $amount: $b * 2%);
+            text-shadow: 3px 2px 10px darken($color: rebeccapurple, $amount: $b * 2%);
+            transition: 1s;
+        }
+
+
+        span:nth-child(#{$b}):hover {
+            font-size: 30px;
+            color: darken($color: rgb(189, 169, 209), $amount: $b * 2%);
+            text-shadow: 3px 2px 10px darken($color: rgb(214, 209, 219), $amount: $b * 2%);
+        }
+
+        $b: $b +1;
+    }
 }
 
 header {
@@ -131,5 +205,7 @@ main {
         .container1nya {
             @include main($bool1: true)
         }
+
+
     }
 }
